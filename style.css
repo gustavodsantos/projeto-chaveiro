@@ -1,0 +1,129 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'open sans1';
+    src: url(fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+
+--color1: #749F6E;
+--color2: #22BABB; 
+--color3: #9EF8EE; 
+--color4: #FA7F08; 
+--color5: #D16E36;
+
+--fonte-destaque: 'Bebas Neue', cursive;
+--fonte-padrão:'open sans1'
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #76db9639;
+    font-family: 'open sans1';
+}
+header {
+    background-image: linear-gradient(var(--color1), var(--color5));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+header > h1 {
+    color: white;
+    font-family: var(--fonte-padrão);
+    font-size: 3em;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.499);
+}
+nav{
+    background-color: var(--color1);
+    padding: 10px;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.49);
+}
+nav > a {
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.1s;
+}
+nav > a:hover {
+    background-color: white;
+    color: black;
+}
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.503);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+main h2 {
+    font-family: var(--fonte-destaque);
+    color: white;
+    font-size: 1.3em;
+    font-weight: normal;
+    background-image: linear-gradient(to right, var(--color5), transparent);
+    text-indent: 30px;
+}
+main p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'open sans1';
+    margin: 15px 0px;
+    text-align: justify;
+    line-height: 2em;
+    letter-spacing: -0.6px;
+}
+main img {
+    width: 150px;
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+img.mapa {
+    min-width: 450px;
+    display: block;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+ul {
+    padding: 30px;
+
+}
+aside {
+    background-color: #76db9639;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.451);
+    
+}
+aside > address {
+    text-indent: 0px;
+}
+footer {
+    background-color: var(--color5);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+    color: var(--color1);
+}
