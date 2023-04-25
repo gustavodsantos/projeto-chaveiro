@@ -32,7 +32,7 @@ header {
 }
 header > h1 {
     color: white;
-    font-family: var(--fonte-padrão);
+    font-family: var(--fonte-destaque);
     font-size: 3em;
     font-weight: normal;
     margin-bottom: 20px;
@@ -115,6 +115,14 @@ aside {
 }
 aside > address {
     text-indent: 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'open sans1';
+    margin: 15px 0px;
+    text-align: justify;
+    line-height: 2em;
+    letter-spacing: -0.6px;
 }
 footer {
     background-color: var(--color5);
