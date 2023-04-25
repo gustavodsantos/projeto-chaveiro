@@ -31,7 +31,7 @@ header {
     padding-top: 40px;
 }
 header > h1 {
-    color: white;
+    color: var(--color4);
     font-family: var(--fonte-destaque);
     font-size: 3em;
     font-weight: normal;
