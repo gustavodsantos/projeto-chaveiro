@@ -25,7 +25,7 @@ body {
     font-family: 'open sans1';
 }
 header {
-    background-image: linear-gradient(var(--color1), var(--color5));
+    background-image:url(imagens/header.jpg);
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
@@ -37,6 +37,10 @@ header > h1 {
     font-weight: normal;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.499);
+    display: inline;
+}
+header > img {
+    display: inline;
 }
 nav{
     background-color: var(--color1);
