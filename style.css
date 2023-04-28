@@ -37,10 +37,10 @@ header > h1 {
     font-weight: normal;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.499);
-    display: inline;
+    display: inline-block;
 }
 header > img {
-    display: inline;
+    display: inline-block;
 }
 nav{
     background-color: var(--color1);
